@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Labs - LAUC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+ 
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+ 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+ 
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #1a2530);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+ 
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+ 
+        .pcce-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding-right: 25px;
+            border-right: 2px solid rgba(255, 255, 255, 0.2);
+        }
+ 
+        .pcce-logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            border-radius: 8px;
+            background-color: white;
+            padding: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+ 
+        .pcce-logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+ 
+        .pcce-logo-text .main {
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+        }
+ 
+        .pcce-logo-text .sub {
+            font-size: 12px;
+            color: #ecf0f1;
+            opacity: 0.9;
+            margin-top: 2px;
+        }
+ 
+        .virtual-labs-logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+ 
+        .virtual-labs-logo i {
+            font-size: 32px;
+            color: #3498db;
+        }
+ 
+        .virtual-labs-logo h1 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+ 
+        .virtual-labs-logo span {
+            color: #3498db;
+        }
+ 
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+ 
+        .user-info i {
+            font-size: 20px;
+            color: #3498db;
+        }
+ 
+        /* Main Content Layout */
+        .main-content {
+            display: flex;
+            margin-top: 30px;
+            gap: 30px;
+        }
+ 
+        /* Sidebar Navigation */
+        .sidebar {
+            flex: 0 0 280px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            padding: 20px 0;
+            height: fit-content;
+        }
+ 
+        .sidebar h3 {
+            padding: 0 20px 15px;
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 15px;
+        }
+ 
+        .nav-menu {
+            list-style: none;
+        }
+ 
+        .nav-item {
+            padding: 12px 25px;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+ 
+        .nav-item:hover {
+            background-color: #f8f9fa;
+            border-left-color: #3498db;
+        }
+ 
+        .nav-item.active {
+            background-color: #f0f…
